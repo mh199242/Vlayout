@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:id="@+id/main_middle_data_last_one"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/main_middle_data_image"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:padding="10dp"
+            android:background="@drawable/square_hollow_gray_ee_bg"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/main_middle_data_title"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/main_middle_data_price"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#f93448"
+            android:textSize="13sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/main_middle_data_last_two"
+        android:layout_width="125dp"
+        android:text="查看全部"
+        android:visibility="gone"
+        android:textColor="#60000000"
+        android:textSize="16sp"
+        android:background="@drawable/square_hollow_gray_ee_bg"
+        android:gravity="center"
+        android:layout_height="160dp" />
+
+
+
+</LinearLayout>

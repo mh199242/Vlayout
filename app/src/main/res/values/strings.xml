@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VlayoutHome</string>
+    <string name="header_hint_refresh_normal">下拉刷新</string>
+    <string name="header_hint_refresh_ready">释放立即刷新</string>
+    <string name="header_hint_refresh_loading">正在刷新…</string>
+    <string name="header_hint_refresh_time">最近更新：</string>
+    <string name="footer_hint_load_normal">加载更多</string>
+    <string name="footer_hint_load_ready">释放立即加载</string>
+</resources>

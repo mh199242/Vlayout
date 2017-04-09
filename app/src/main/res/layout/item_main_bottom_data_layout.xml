@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/main_bottom_main_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/main_bottom_data_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/square_hollow_gray_ee_bg"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/main_bottom_data_title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@id/main_bottom_data_image"
+            android:layout_alignRight="@id/main_bottom_data_image"
+            android:layout_below="@id/main_bottom_data_image"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#333333"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/main_bottom_data_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/main_bottom_data_title"
+            android:layout_alignRight="@id/main_bottom_data_title"
+            android:layout_below="@id/main_bottom_data_title"
+            android:ellipsize="end"
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:textColor="#f93448"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/main_bottom_data_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee" />
+
+</LinearLayout>
